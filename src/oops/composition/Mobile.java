@@ -9,7 +9,7 @@ public class Mobile {
 
 	public Mobile(String iMEINumber, String brandName, String os, Battery battery, Camera camera) {
 		super();
-		IMEINumber = iMEINumber;
+		this.IMEINumber = iMEINumber;
 		this.brandName = brandName;
 		this.os = os;
 		this.battery = battery;
