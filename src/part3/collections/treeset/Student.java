@@ -90,16 +90,12 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public int compareTo(Student st) {
-//		if (rollNum == st.rollNum)
-//			return 0;
-//		else if (rollNum > st.rollNum)
-//			return 1;
-//		else
-//			return -1;
-		
-		int last = this.name.compareTo(st.name);
-	     //Sorting by first name if last name is same d
-	     return last == 0 ? this.name.compareTo(st.name) : last;
+		if (rollNum == st.rollNum)
+			return 0;
+		else if (rollNum > st.rollNum)
+			return 1;
+		else
+			return -1;
 	}
 
 }

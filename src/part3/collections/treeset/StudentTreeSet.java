@@ -3,8 +3,6 @@ package part3.collections.treeset;
 import java.util.Set;
 import java.util.TreeSet;
 
-import part3.collections.set.Student;
-
 public class StudentTreeSet {
 	public static void main(String[] args) {
 		Student sachin = new Student(10, "Sachin", "Mumbai", 15);
